@@ -1,15 +1,15 @@
 
 --DML commands
 
-INSERT INTO `keepnote`.`Note` (`note_id`, `note_title`, `note_content`, `note_status`, `note_creation_date`) VALUES ('1', 'Note1', 'Note1-content', 'Inprogress', '2007-02-03');
-INSERT INTO `keepnote`.`Note` (`note_id`, `note_title`, `note_content`, `note_status`, `note_creation_date`) VALUES ('2', 'Note2', 'Note2-content', 'InActive', '2007-01-31');
-INSERT INTO `keepnote`.`Note` (`note_id`, `note_title`, `note_content`, `note_status`, `note_creation_date`) VALUES ('3', 'Note3', 'Note3-content', 'Active', '2007-02-02');
-INSERT INTO `keepnote`.`Note` (`note_id`, `note_title`, `note_content`, `note_status`, `note_creation_date`) VALUES ('4', 'Note4', 'Note4-content', 'Active', '2007-03-06');
+INSERT INTO `keepnote`.`Note` (`note_id`, `note_title`, `note_content`, `note_status`, `note_creation_date`) VALUES ('1', 'Note1', 'Note1-content', 'Inprogress', '2022-03-15');
+INSERT INTO `keepnote`.`Note` (`note_id`, `note_title`, `note_content`, `note_status`, `note_creation_date`) VALUES ('2', 'Note2', 'Note2-content', 'Active', '2022-03-15');
+INSERT INTO `keepnote`.`Note` (`note_id`, `note_title`, `note_content`, `note_status`, `note_creation_date`) VALUES ('3', 'Note3', 'Note3-content', 'Active', '2022-03-16');
+INSERT INTO `keepnote`.`Note` (`note_id`, `note_title`, `note_content`, `note_status`, `note_creation_date`) VALUES ('4', 'Note4', 'Note4-content', 'InActive', '2022-03-17');
 
-INSERT INTO `keepnote`.`Category` ( `category_name`, `category_descr`, `category_creation_date`, `category_creator`) VALUES ( 'Category1', 'Category1-desc', '2007-02-06', '101');
-INSERT INTO `keepnote`.`Category` (`category_name`, `category_descr`, `category_creation_date`, `category_creator`) VALUES ( 'Category2', 'Category2-desc', '2007-06-21', '102');
-INSERT INTO `keepnote`.`Category` ( `category_name`, `category_descr`, `category_creation_date`, `category_creator`) VALUES ( 'Category3', 'Category3-desc', '2007-05-05', '103');
-INSERT INTO `keepnote`.`Category` ( `category_name`, `category_descr`, `category_creation_date`, `category_creator`) VALUES ( 'Category4', 'Category4-desc', '2007-06-08', '104');
+INSERT INTO `keepnote`.`Category` ( `category_name`, `category_descr`, `category_creation_date`, `category_creator`) VALUES ( 'Category1', 'Category1-desc', '2022-03-15', '101');
+INSERT INTO `keepnote`.`Category` (`category_name`, `category_descr`, `category_creation_date`, `category_creator`) VALUES ( 'Category2', 'Category2-desc', '2022-03-15', '102');
+INSERT INTO `keepnote`.`Category` ( `category_name`, `category_descr`, `category_creation_date`, `category_creator`) VALUES ( 'Category3', 'Category3-desc', '2022-03-16', '103');
+INSERT INTO `keepnote`.`Category` ( `category_name`, `category_descr`, `category_creation_date`, `category_creator`) VALUES ( 'Category4', 'Category4-desc', '2022-03-17', '104');
 
 
 
@@ -21,12 +21,12 @@ INSERT INTO `keepnote`.`NoteCategory` ( `note_id`, `category_id`) VALUES ( '3', 
 INSERT INTO `keepnote`.`UserNote` ( `user_id`, `note_id`) VALUES ( '1', '1');
 INSERT INTO `keepnote`.`UserNote` (`user_id`, `note_id`) VALUES ( '2', '2');
 
-INSERT INTO `keepnote`.`Reminder` ( `reminder_name`, `reminder_descr`, `reminder_type`, `reminder_creation_date`, `reminder_creator`) VALUES ( 'rem1', 'rem1-desc', 'erveryday', '2004-03-26', '1');
-INSERT INTO `keepnote`.`Reminder` ( `reminder_name`, `reminder_descr`, `reminder_type`, `reminder_creation_date`, `reminder_creator`) VALUES ( 'rem2', 'rem2-desc', 'oneday', '2004-06-25', '2');
+INSERT INTO `keepnote`.`Reminder` ( `reminder_name`, `reminder_descr`, `reminder_type`, `reminder_creation_date`, `reminder_creator`) VALUES ( 'rem1', 'rem1-desc', 'erveryday', '2022-03-16', '1');
+INSERT INTO `keepnote`.`Reminder` ( `reminder_name`, `reminder_descr`, `reminder_type`, `reminder_creation_date`, `reminder_creator`) VALUES ( 'rem2', 'rem2-desc', 'oneday', '2022-03-17', '2');
 
 
-INSERT INTO `User` (`user_id`,`user_name`,`user_added_date`,`user_password`,`user_mobile`) VALUES (1,'Pradeep','1991-12-12','svns',8904128500);
-INSERT INTO `User` (`user_id`,`user_name`,`user_added_date`,`user_password`,`user_mobile`) VALUES (2,'Sai','1991-12-12','sure',8217862238);
+INSERT INTO `User` (`user_id`,`user_name`,`user_added_date`,`user_password`,`user_mobile`) VALUES (1,'Swagat','1991-12-12','sksy',8249781074);
+INSERT INTO `User` (`user_id`,`user_name`,`user_added_date`,`user_password`,`user_mobile`) VALUES (2,'Sweety','1991-12-12','sure',8018265208);
 
 
 create database keepnote;
